@@ -1,8 +1,7 @@
+# -*- coding: utf-8 -*-
 from PIL import Image
 import pytesseract
 from PIL import ImageFile
-from matplotlib import animation
-import matplotlib.pyplot as plt
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
@@ -57,16 +56,6 @@ def ocr_img(image):
     result = pytesseract.image_to_string(image, config=tessdata_dir_config)
     return result
 
-fig = plt.figure()
-img = Image.open('captcha.jpg')
-im = plt.imshow(img, animated=True)
-
-def updatefig(s):
-    im.set_array(Image.open('captcha.jpg'))
-    return im
 if __name__ == '__main__':
-    # img = Image.open("./captcha.jpg")
-    # print(ocr_img(img))
-
-    ani = animation.FuncAnimation(fig, updatefig, interval=5, blit=True)
-    plt.show()
+    img = Image.open("./captcha.jpg")
+    print(ocr_img(img))
