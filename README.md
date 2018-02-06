@@ -10,6 +10,7 @@
 
 ### 1. 手动输入验证码
 a. 先在命令行执行 `python pic.py`，加载验证码，当有新的验证码时会及时刷新
+
 b. 然后执行`python pet-chain.py`
 ### 2. 自动输入验证码
 a. 直接执行`python pet-chain.py`
