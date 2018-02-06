@@ -9,9 +9,14 @@
 - 编辑config/config.ini文件配置不同种类狗的最高买入价格以及是否自动填写验证码
 
 ### 1. 手动输入验证码
-a. 先在命令行执行 `python pic.py`，加载验证码，当有新的验证码时会及时刷新
+##### a. 先在命令行执行 `python pic.py`，加载验证码，当有新的验证码时会及时刷新
 
-b. 然后执行`python pet-chain.py`
+![image](https://github.com/Acamy/Images/blob/master/3.png)
+
+##### b. 然后执行`python pet-chain.py`
+
+![image](https://github.com/Acamy/Images/blob/master/2.png)
+
 ### 2. 自动输入验证码
-a. 直接执行`python pet-chain.py`
+##### a. 直接执行`python pet-chain.py`
 现在自动输入验证码正确率比较低，建议采用第一种方式，后续进行代码优化
