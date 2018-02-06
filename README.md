@@ -18,5 +18,7 @@
 ![image](https://github.com/Acamy/Images/blob/master/2.png)
 
 ### 2. 自动输入验证码
-##### a. 直接执行`python pet-chain.py`
+##### a. 修改config/config.ini的isAuto为True
+
+##### b. 执行`python pet-chain.py`
 现在自动输入验证码正确率比较低，建议采用第一种方式，后续进行代码优化
