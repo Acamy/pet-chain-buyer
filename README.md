@@ -1,7 +1,7 @@
 # pet-chain-buyer
 百度莱茨狗抢购，多线程，Google tesseract-ocr识别验证码和手动输入验证码
 
-参考https://github.com/yanwii/pet-chain项目
+参考 https://github.com/yanwii/pet-chain 项目
 
 # 使用方法
 - 配置好需要的依赖库
