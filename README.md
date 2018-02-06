@@ -11,7 +11,7 @@
 ### 1. 手动输入验证码
 ##### a. 先在命令行执行 `python pic.py`，加载验证码，当有新的验证码时会及时刷新
 
-![image](https://github.com/Acamy/Images/blob/master/3.png)
+![image](https://github.com/Acamy/Images/blob/master/4.png)
 
 ##### b. 然后执行`python pet-chain.py`
 
