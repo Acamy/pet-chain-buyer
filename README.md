@@ -1,8 +1,8 @@
 # pet-chain-buyer
-百度莱茨狗抢购脚本，采用多线程查询购买，支持调用API识别验证友，Google tesseract-ocr识别验证码以及手动输入验证码三种方式，代码持续优化中
+百度莱茨狗抢购脚本，采用多线程查询购买，支持调用API识别验证码，Google tesseract-ocr识别验证码以及手动输入验证码三种方式，代码持续优化中
 
 # 项目介绍
-最近百度上线的莱茨狗区块链宠物[项目地址](https://pet-chain.baidu.com/)支持买入卖出操作，使用本脚本的目的就是找到下图中的低价狗，迅速买入，然后高价卖出，通过低买高卖来积累微积分
+最近百度上线的莱茨狗区块链宠物( [项目地址](https://pet-chain.baidu.com/) )支持买入卖出操作，使用本脚本的目的就是找到下图中的低价狗，迅速买入，然后高价卖出，通过低买高卖来积累微积分
 
 ![image](https://github.com/Acamy/Images/blob/master/2018-02-07_095853.png)
 
@@ -22,8 +22,10 @@
 ![image](https://github.com/Acamy/Images/blob/master/2.png)
 
 ### 2. 调用ShowApi识别验证码
-[API使用地址](https://www.showapi.com/api/view/184)，该API识别率还是非常高的，花1毛钱即可体验，平均识别时间2-3秒，如下图：
+( [API使用地址](https://www.showapi.com/api/view/184) )，该API识别率还是非常高的，花1毛钱即可体验，平均识别时间2-3秒，如下图：
+
 ![image](https://github.com/Acamy/Images/blob/master/2018-02-07_153002.png)
+
 ##### a. 修改config/config.ini里ShowAPI为中的appid和sign为自己的
 ##### b. 然后执行`python pet-chain.py`
 ![image](https://github.com/Acamy/Images/blob/master/2018-02-07_152735.png)
